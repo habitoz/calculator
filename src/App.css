@@ -71,3 +71,13 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.ErrorMessage {
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
