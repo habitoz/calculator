@@ -25,7 +25,7 @@
 - [📝 License](#license)
 
 
-# 📖 [Awesome-Series] 
+# 📖 [Calculator] 
 
 This is a simple SPA react application that performs basic mathmatical calculations. 
 
