@@ -1,0 +1,35 @@
+.CalculatorContainer {
+  width: 30%;
+  margin: 50px auto 0;
+}
+
+.Screen {
+  background-color: #858694;
+  padding: 15px 10px 6px;
+  text-align: end;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+}
+
+.keypad-button {
+  padding: 15px 15px;
+  text-align: center;
+  width: 100%;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.primary-button {
+  background-color: #e0e0e0;
+}
+
+.secondary-button {
+  background-color: #f5913e;
+}
+
+.KeypadContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

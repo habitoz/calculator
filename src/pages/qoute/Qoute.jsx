@@ -22,7 +22,7 @@ export default function Quote() {
   }, []);
 
   return (
-    <div>
+    <div className="QuoteContainer">
       {
             state.loading && (
             <p className="text-center loading-message">hangon fetching quotes.</p>
