@@ -1,6 +1,7 @@
 import React from 'react';
 import Style from './Home.module.css';
 
+/* eslint-disable react/jsx-curly-brace-presence */
 export default function Home() {
   return (
     <div className={`${Style.HomeContainer}`}>
