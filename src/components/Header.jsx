@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Style from './Header.module.css';
 /* eslint-disable react/prop-types, jsx-a11y/no-noninteractive-element-interactions,
-jsx-a11y/click-events-have-key-events */
+jsx-a11y/click-events-have-key-events, react/jsx-curly-brace-presence */
 
 export default function Header() {
   return (
