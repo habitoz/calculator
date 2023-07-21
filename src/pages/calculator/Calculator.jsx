@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import calculate from '../../logic/calculate';
 import Style from './calculator.module.css';
-/* eslint-disable react/prop-types, no-nested-ternary */
+
+/* eslint-disable react/prop-types, react/jsx-curly-brace-presence, no-nested-ternary */
 const KeypadButton = ({ primary, character, clickHandler }) => (
   <button type="button" onClick={() => clickHandler()} className={`${Style['keypad-button']} ${primary ? Style['primary-button'] : Style['secondary-button']}`}>
     {character}
